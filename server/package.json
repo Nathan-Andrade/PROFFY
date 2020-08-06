@@ -8,10 +8,6 @@
     "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
     "knex:migrate:roolback": "knex --knexfile knexfile.ts migrate:rollback"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Nathan-Andrade/Proffy.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,6 +17,8 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
+    "@types/cors": "^2.8.7",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.21.2",
     "sqlite3": "^5.0.0"
