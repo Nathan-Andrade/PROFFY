@@ -33,11 +33,8 @@ This project was developed with the following technologies:
 
 -   [Node.js](https://nodejs.org/)
 -   [Express](https://expressjs.com/)
--   [TypeORM](https://typeorm.io/)
 -   [Typescript](https://www.typescriptlang.org/)
 -   [TS-Node-Dev](https://www.npmjs.com/package/ts-node-dev)
--   [Tsyringe](https://github.com/microsoft/tsyringe)
--   [uuidv4](https://www.npmjs.com/package/uuidv4)
 -   [Cors](https://www.npmjs.com/package/cors)
 -   [ESLint](https://eslint.org/)
 -   [Prettier](https://prettier.io/)
