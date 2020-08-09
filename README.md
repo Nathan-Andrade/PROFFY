@@ -5,7 +5,7 @@
 <br />
 
 <h2 align="center">
-    NextLevelWeek #02 
+    NextLevelWeek #02 :rocket:
 </h2>
 
   ![](https://img.shields.io/github/languages/count/Nathan-Andrade/Proffy?color=%238257e5) ![](https://img.shields.io/github/languages/top/Nathan-andrade/Proffy?color=%238257e5) ![](https://img.shields.io/github/repo-size/Nathan-Andrade/Proffy?color=%238257e5) ![](https://img.shields.io/npm/l/packge?color=%238257e5) ![](https://img.shields.io/github/last-commit/Nathan-Andrade/Proffy?color=%238257e5) 
