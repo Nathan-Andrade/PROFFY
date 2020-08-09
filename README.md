@@ -24,9 +24,9 @@
   <img src="https://github.com/Nathan-Andrade/Proffy/blob/master/github/gifDaAplica%C3%A7%C3%A3oWithResponsiveMobile.gif?raw=true" >
 </p>
 
- ## :rocket: Tecnologias e Bibliotecas
+ ## :airplane: Tecnologias e Bibliotecas
 
-This project was developed with the following technologies:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 <details>
   <summary>Server</summary>
