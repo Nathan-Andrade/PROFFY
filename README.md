@@ -156,7 +156,7 @@ O Expo irá abrir em uma página do seu navegador e com o seu celular poderá es
 
 ## :memo: Licensa
 
-Este projeto tem uma licensa do MIT. Olhe a [Licensa](https://github.com/StefanoSaffran/proffy/blob/master/LICENSE) para mais informações
+Este projeto tem uma licensa do MIT. Olhe a [Licensa](https://github.com/Nathan-Andrade/Proffy/blob/master/LICENSE) para mais informações
 
 ---
 
