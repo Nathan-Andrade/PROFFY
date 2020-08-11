@@ -8,7 +8,7 @@
     NextLevelWeek #02 :rocket:
 </h2>
 
-  ![](https://img.shields.io/github/languages/count/Nathan-Andrade/Proffy?color=%238257e5) ![](https://img.shields.io/github/languages/top/Nathan-andrade/Proffy?color=%238257e5) ![](https://img.shields.io/github/repo-size/Nathan-Andrade/Proffy?color=%238257e5) ![](https://img.shields.io/npm/l/packge?color=%238257e5) ![](https://img.shields.io/github/last-commit/Nathan-Andrade/Proffy?color=%238257e5) 
+  ![](https://img.shields.io/github/languages/count/Nathan-Andrade/proffy?color=%238257e5) ![](https://img.shields.io/github/languages/top/Nathan-andrade/proffy?color=%238257e5) ![](https://img.shields.io/github/repo-size/Nathan-Andrade/proffy?color=%238257e5) ![](https://img.shields.io/npm/l/packge?color=%238257e5) ![](https://img.shields.io/github/last-commit/Nathan-Andrade/proffy?color=%238257e5) 
 
 <p align="center">
   
@@ -21,7 +21,7 @@
 
  <p align="center">
   <img src="https://github.com/Nathan-Andrade/Proffy/blob/master/github/gifDaAplica%C3%A7%C3%A3oWithResponsive.gif?raw=true" >
-  <img src="https://github.com/Nathan-Andrade/Proffy/blob/master/github/gifDaAplica%C3%A7%C3%A3oWithResponsiveMobile.gif?raw=true" >
+  <img src="https://github.com/Nathan-Andrade/proffy/blob/master/github/gifMobile.gif?raw=true" >
 </p>
 
  ## :airplane: Tecnologias e Bibliotecas
