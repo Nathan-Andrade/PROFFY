@@ -2,58 +2,56 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/images/logo.svg';
-import landingImg from '../../assets/images/landing.svg'
+import landingImg from '../../assets/images/landing.svg';
 
 import studyIcon from '../../assets/images/icons/study.svg';
-import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
+import giveClassIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
-import './styles.css';
+import { Container, LogoContainer, ButtonContainer } from './styles';
 import api from '../../services/api';
 
-function Landing(){
-  const [totalConnections, setTotalConnections] = useState(0);
+const SignIn: React.FC = () => {
+  const [totalConnection, setTotalConnections] = useState(0);
 
   useEffect(() => {
-    api.get('connections').then(res => {
-      const {total} = res.data;
-
-      setTotalConnections(total);
-    })
-  }, [])
+    api.get('/connections').then((response) => {
+      setTotalConnections(response.data.total);
+    });
+  }, []);
 
   return (
-    <div id="page-landing">
+    <Container id="page-landing">
       <div id="page-landing-content" className="container">
-        <div className="logo-container">
-          <img src={logoImg} alt=""/>
-          <h2>Sua plataforma de estudos online.</h2>
-        </div>
+        <LogoContainer className="logo-container">
+          <img src={logoImg} alt="Proffy" />
+          <h2>Sua plataforma de estudos online</h2>
+        </LogoContainer>
 
         <img
-         src={landingImg}
+          src={landingImg}
           alt="Plataforma de estudos"
-           className="hero-image"
-           />
+          className="hero-image"
+        />
 
-            <div className="buttons-container">
-              <Link to="/study" className="study">
-                  <img src={studyIcon} alt="Estudar"/>
-                  Estudar
-              </Link>
-            
-              <Link to="/give-classes" className="give-classes">
-                  <img src={giveClassesIcon} alt="Dar aulas"/>
-                  Dar aulas
-              </Link>
-            </div>
+        <ButtonContainer className="buttons-container">
+          <Link to="study" className="study">
+            <img src={studyIcon} alt="estudar" />
+            Estudar
+          </Link>
+          <Link to="give-classes" className="give-classes">
+            <img src={giveClassIcon} alt="estudar" />
+            Dar Aulas
+          </Link>
+        </ButtonContainer>
 
-            <span className="total-connections">
-              Total de {totalConnections} conexões já ralizadas <img src={purpleHeartIcon} alt="Coração Roxo"/>
-            </span>
+        <span className="total-connection">
+          {`Total de ${totalConnection} conexões já realizadas`}
+          <img src={purpleHeartIcon} alt="Coração roxo" />
+        </span>
       </div>
-    </div>
-  )
-}
+    </Container>
+  );
+};
 
-export default Landing;
+export default SignIn;
